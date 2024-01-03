@@ -1,0 +1,50 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+# https://peps.python.org/pep-0621/
+[tool.poetry]
+authors = ["RoseSecurity <rosesecurityresearch@proton.me"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: Apache Software License"
+]
+description = "CloudPulse is a tool to curate compelling news on cloud technologies and cybersecurity. By aggregating information from RSS feeds and Reddit, it identifies the most noteworthy and impactful updates in the tech industry."
+license = "Apache-2.0"
+version = "0.1.0"
+
+name = "cloudpulse"
+packages = [
+  {include = "cloudpulse"}
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+feedparser
+praw
+openai
+flake8
+configparser
+streamlit
+PIL
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "6.1.0"
+pylint = "3.0.3"
+
+[tool.poetry.scripts]
+cloudpulse = "cloudpulse.__main__:cloudpulse"
+
+[tool.poetry.urls]
+"Changelog" = "https://github.com/RoseSecurity/CloudPulse/releases"
+"Documentation" = "https://github.com/RoseSecurity/CloudPulse/main/tree/docs"
+"Homepage" = "https://github.com/RoseSecurity/CloudPulse"
+"Issue tracker" = "https://github.com/RoseSecurity/CloudPulse/issues"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "./src"
+]
