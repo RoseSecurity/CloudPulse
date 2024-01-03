@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 import subprocess
-import os
 
 from datetime import datetime
-import sys
-from pathlib import Path
-from app.streamlit_app import *
 
 
 class Color:

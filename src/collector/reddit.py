@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import praw
-import configparser
 
 
 # Function to display subreddit posts

@@ -44,8 +44,11 @@ def print_banner():
 def parse_arguments():
     parser = argparse.ArgumentParser(
         description='\nCloudPulse curates compelling news on cloud technologies and cybersecurity. '
-                    'By aggregating information from RSS feeds, Reddit,'
-                    'it identifies the most noteworthy and impactful updates in the tech industry.\t' + Color.GREEN + Color.TAG + Color.END)
+        'By aggregating information from RSS feeds, Reddit,'
+        'it identifies the most noteworthy and impactful updates in the tech industry.\t' +
+        Color.GREEN +
+        Color.TAG +
+        Color.END)
 
     parser.add_argument('-o', '--output', choices=['stdout', 'file', 'streamlit'],
                         help='Modes of output: stdout - Output to terminal, file - Output to Markdown file, streamlit '
