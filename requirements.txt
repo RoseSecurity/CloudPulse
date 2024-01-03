@@ -1,0 +1,7 @@
+feedparser
+praw
+openai
+flake8
+configparser
+streamlit
+PIL
