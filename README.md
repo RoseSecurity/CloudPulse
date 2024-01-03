@@ -10,7 +10,7 @@ _A tool to curate compelling news on cloud technologies and cybersecurity. By ag
 
 ## Demo
 
-https://github.com/RoseSecurity/CloudPulse/assets/72598486/f58adf6c-c1a6-4a54-8c9d-8550f386b8ae
+https://github.com/RoseSecurity/CloudPulse/assets/72598486/2b56ce37-b944-4f69-9f8b-307de993fff1
 
 ## Installation
 
