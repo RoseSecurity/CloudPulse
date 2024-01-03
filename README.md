@@ -16,7 +16,7 @@ _A tool to curate compelling news on cloud technologies and cybersecurity. By ag
 
 Download Repository:
 
-```console
+```sh
 $ mkdir CloudPulse
 $ cd CloudPulse/
 $ sudo git clone https://github.com/RoseSecurity/CloudPulse.git
@@ -24,7 +24,7 @@ $ sudo git clone https://github.com/RoseSecurity/CloudPulse.git
 
 Install Dependencies:
 
-```
+```sh
 $ pip3 install -r requirements.txt
 ```
 
@@ -40,24 +40,24 @@ REDDIT_USERNAME - Reddit username
 REDDIT_PASSWORD - Reddit password
 ```
 
-```console
+```sh
 usage: cloudpulse.py [-h] [-o {stdout,file,streamlit}]
 ```
 
 Output cloud news to terminal:
 
-```console
+```sh
 $ python3 cloudpulse.py -o stdout
 ```
 
 Output cloud news to `CloudPulse` file:
 
-```console
+```sh
 $ python3 cloudpulse.py -o file
 ```
 
 Output cloud news to Streamlit application:
 
-```console
+```sh
 $ python3 cloudpulse.py -o streamlit
 ```
