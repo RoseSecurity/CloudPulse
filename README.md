@@ -61,3 +61,63 @@ Output cloud news to Streamlit application:
 ```sh
 $ python3 cloudpulse.py -o streamlit
 ```
+
+## Sources
+
+### Reddit
+
+- [r/hacking](https://www.reddit.com/r/hacking/)
+- [r/infosec](https://www.reddit.com/r/infosec/)
+- [r/redteamsec](https://www.reddit.com/r/redteamsec/)
+- [r/cybersecurity](https://www.reddit.com/r/cybersecurity/)
+- [r/netsec](https://www.reddit.com/r/netsec/)
+- [r/hackernews](https://www.reddit.com/r/hackernews/)
+- [r/devops](https://www.reddit.com/r/devops/)
+- [r/terraform](https://www.reddit.com/r/terraform/)
+- [r/ansible](https://www.reddit.com/r/ansible/)
+- [r/aws](https://www.reddit.com/r/aws/)
+- [r/github](https://www.reddit.com/r/github/)
+- [r/homelab](https://www.reddit.com/r/homelab/)
+- [r/homenetworking](https://www.reddit.com/r/homenetworking/)
+- [r/kubernetes](https://www.reddit.com/r/kubernetes/)
+- [r/networking](https://www.reddit.com/r/networking/)
+- [r/proxmox](https://www.reddit.com/r/proxmox/)
+- [r/sysadmin](https://www.reddit.com/r/sysadmin/)
+- [r/vscode](https://www.reddit.com/r/vscode/)
+- [r/sre](https://www.reddit.com/r/sre/)
+- [r/azure](https://www.reddit.com/r/azure/)
+- [r/docker](https://www.reddit.com/r/docker/)
+- [r/linux](https://www.reddit.com/r/linux/)
+- [r/bash](https://www.reddit.com/r/bash/)
+- [r/ubuntu](https://www.reddit.com/r/ubuntu/)
+- [r/vim](https://www.reddit.com/r/vim/)
+- [r/debian](https://www.reddit.com/r/debian/)
+- [r/freebsd](https://www.reddit.com/r/freebsd/)
+- [r/fedora](https://www.reddit.com/r/fedora/)
+- [r/golang](https://www.reddit.com/r/golang/)
+- [r/kde](https://www.reddit.com/r/kde/)
+- [r/gnome](https://www.reddit.com/r/gnome/)
+- [r/opensource](https://www.reddit.com/r/opensource/)
+
+### RSS Feeds
+
+#### AWS Feeds
+
+- [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/feed/)
+- [AWS Blog](https://aws.amazon.com/blogs/aws/feed/)
+- [AWS Compute Blog](https://aws.amazon.com/blogs/compute/feed/)
+- [AWS Containers Blog](https://aws.amazon.com/blogs/containers/feed/)
+- [AWS DevOps Blog](https://aws.amazon.com/blogs/devops/feed/)
+- [AWS Database Blog](https://aws.amazon.com/blogs/database/feed/)
+- [AWS Infrastructure and Automation Blog](https://aws.amazon.com/blogs/infrastructure-and-automation/feed/)
+- [AWS Open Source Blog](https://aws.amazon.com/blogs/opensource/feed/)
+
+#### Breach Feeds
+
+- [Have I Been Pwned - Latest Breaches](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches)
+
+#### DevOps Feeds
+
+- [OpenToFu Releases](https://github.com/opentofu/opentofu/releases.atom)
+- [Terraform Releases](https://github.com/hashicorp/terraform/releases.atom)
+- [Kubernetes Releases](https://github.com/kubernetes/kubernetes/releases.atom)

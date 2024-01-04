@@ -11,8 +11,7 @@ def fetch_rss_data():
                  "https://aws.amazon.com/blogs/containers/feed/", "https://aws.amazon.com/blogs/devops/feed/",
                  "https://aws.amazon.com/blogs/database/feed/",
                  "https://aws.amazon.com/blogs/infrastructure-and-automation/feed/",
-                 "https://aws.amazon.com/blogs/opensource/feed/",
-                 "https://aws.amazon.com/blogs/opensource/feed/",
+                 "https://aws.amazon.com/blogs/opensource/feed/"
                  ]
 
     breach_feeds = [
