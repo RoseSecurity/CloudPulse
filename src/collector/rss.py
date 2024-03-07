@@ -19,7 +19,8 @@ def fetch_rss_data():
 
     devops_feeds = ["https://github.com/opentofu/opentofu/releases.atom",
                     "https://github.com/hashicorp/terraform/releases.atom",
-                    "https://github.com/kubernetes/kubernetes/releases.atom"
+                    "https://github.com/kubernetes/kubernetes/releases.atom",
+                    "https://cloud.google.com/feeds/gcp-release-notes.xml"
                     ]
 
     # Fetch data from RSS feeds
