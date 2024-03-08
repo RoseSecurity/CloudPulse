@@ -112,6 +112,10 @@ $ python3 cloudpulse.py -o streamlit
 - [AWS Infrastructure and Automation Blog](https://aws.amazon.com/blogs/infrastructure-and-automation/feed/)
 - [AWS Open Source Blog](https://aws.amazon.com/blogs/opensource/feed/)
 
+#### GCP Feeds
+
+- [GCP Release Notes](https://cloud.google.com/release-notes)
+
 #### Breach Feeds
 
 - [Have I Been Pwned - Latest Breaches](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches)
