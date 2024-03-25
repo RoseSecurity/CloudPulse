@@ -1,7 +1,7 @@
-feedparser
-praw
-openai
-flake8
-configparser
-streamlit
-PIL
+feedparser==6.0.11
+praw==7.7.1
+openai==1.14.2
+flake8==7.0.0
+configparser==6.0.1
+streamlit==1.32.2
+pillow==10.2.0
