@@ -17,15 +17,17 @@ https://github.com/RoseSecurity/CloudPulse/assets/72598486/2b56ce37-b944-4f69-9f
 Download Repository:
 
 ```sh
-$ mkdir CloudPulse
-$ cd CloudPulse/
-$ sudo git clone https://github.com/RoseSecurity/CloudPulse.git
+mkdir CloudPulse
+cd CloudPulse/
+git clone https://github.com/RoseSecurity/CloudPulse.git
 ```
 
 Install Dependencies:
 
 ```sh
-$ pip3 install -r requirements.txt
+python3 -m venv .venv
+source venv/bin/activate
+pip3 install -r requirements.txt
 ```
 
 ## CloudPulse Usage
@@ -47,19 +49,19 @@ usage: cloudpulse.py [-h] [-o {stdout,file,streamlit}]
 Output cloud news to terminal:
 
 ```sh
-$ python3 cloudpulse.py -o stdout
+python3 cloudpulse.py -o stdout
 ```
 
 Output cloud news to `CloudPulse` file:
 
 ```sh
-$ python3 cloudpulse.py -o file
+python3 cloudpulse.py -o file
 ```
 
 Output cloud news to Streamlit application:
 
 ```sh
-$ python3 cloudpulse.py -o streamlit
+python3 cloudpulse.py -o streamlit
 ```
 
 ## Sources
