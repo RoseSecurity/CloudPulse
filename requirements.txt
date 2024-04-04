@@ -3,5 +3,5 @@ praw==7.7.1
 openai==1.14.3
 flake8==7.0.0
 configparser==6.0.1
-streamlit==1.32.2
+streamlit==1.33.0
 pillow==10.3.0
