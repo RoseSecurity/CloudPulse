@@ -2,6 +2,6 @@ feedparser==6.0.11
 praw==7.7.1
 openai==1.16.2
 flake8==7.0.0
-configparser==6.0.1
+configparser==7.0.0
 streamlit==1.33.0
 pillow==10.3.0
