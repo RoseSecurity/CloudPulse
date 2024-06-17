@@ -25,7 +25,7 @@ git clone https://github.com/RoseSecurity/CloudPulse.git
 Install Dependencies:
 
 ```sh
-python3 -m venv .venv
+python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 ```
@@ -40,6 +40,14 @@ REDDIT_CLIENT_ID - Reddit client ID
 REDDIT_CLIENT_SECRET - Reddit client secret
 REDDIT_USERNAME - Reddit username
 REDDIT_PASSWORD - Reddit password
+
+# Subreddits to monitor
+[Reddit]
+subreddits = ["devops", "terraform", "aws", "github", "sre"]
+
+# RSS Feeds to monitor
+[RSS]
+feeds = ["https://aws.amazon.com/blogs/infrastructure-and-automation/feed/", "https://github.com/opentofu/opentofu/releases.atom", "https://github.com/hashicorp/terraform/releases.atom", "https://sre.news/rss.xml"]
 ```
 
 ```sh

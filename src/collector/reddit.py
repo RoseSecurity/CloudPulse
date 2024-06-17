@@ -4,14 +4,7 @@ import praw
 
 
 # Function to display subreddit posts
-def subreddit_posts(reddit_client_id, reddit_client_secret, reddit_username, reddit_password):
-    subreddits = ["hacking", "infosec", "redteamsec",
-                  "cybersecurity", "netsec", "hackernews", "devops", "terraform", "ansible", "aws",
-                  "github", "homelab", "homenetworking",
-                  "kubernetes", "networking", "proxmox", "sysadmin", "vscode", "sre", "azure",
-                  "docker", "linux", "bash", "ubuntu", "vim", "debian",
-                  "freebsd", "fedora", "golang", "kde", "gnome", "opensource"]
-
+def subreddit_posts(reddit_client_id, reddit_client_secret, reddit_username, reddit_password, reddit_subreddits):
     # Instantiate bot
     reddit = praw.Reddit(client_id=reddit_client_id,
                          client_secret=reddit_client_secret,
@@ -20,7 +13,7 @@ def subreddit_posts(reddit_client_id, reddit_client_secret, reddit_username, red
                          username=reddit_username,
                          password=reddit_password)
     subreddit_list = []
-    for subreddit_name in subreddits:
+    for subreddit_name in reddit_subreddits:
         subreddit = reddit.subreddit(subreddit_name)
         for submission in subreddit.hot(limit=10):
             title = submission.title
