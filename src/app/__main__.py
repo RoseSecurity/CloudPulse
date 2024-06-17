@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import ast
 import configparser
 
 from app.app import *
@@ -25,7 +26,7 @@ def read_config(filename='config.ini'):
         raise FileNotFoundError(f"{Color.RED}{Color.BOLD}Error: Configuration file '{filename}' not found."
                                 f" Please create the file with the required settings.")
 
-    config = configparser.ConfigParser()
+    config = configparser.ConfigParser(allow_no_value=False)
     config.read(filename)
     return config
 
@@ -63,9 +64,13 @@ def cloudpulse():
     reddit_username = config.get('Credentials', 'REDDIT_USERNAME')
     reddit_password = config.get('Credentials', 'REDDIT_PASSWORD')
 
+    # Pass the Reddit and RSS Feeds to the collectors
+    subreddits =  ast.literal_eval(config.get('Reddit', 'subreddits'))
     reddit_feeds = subreddit_posts(
-        reddit_client_id, reddit_client_secret, reddit_username, reddit_password)
-    rss_feeds = fetch_rss_data()
+        reddit_client_id, reddit_client_secret, reddit_username, reddit_password, subreddits)
+
+    feeds = ast.literal_eval(config.get('RSS', 'feeds'))
+    rss_feeds = fetch_rss_data(feeds)
 
     # Outputs
     if output_format is None:
